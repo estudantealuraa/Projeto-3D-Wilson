@@ -12,3 +12,8 @@
     -botao-ativo:rgba(72, 55, 94, 1)
     
 }
+body{
+    background-color: var(--verdea);
+    color: var(--branco);
+    font-family: 'Chakra Petch', 'Sans-Serif';
+}
