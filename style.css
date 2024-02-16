@@ -8,12 +8,12 @@
     --darkazul: #3A375E;
     --verdeagua: #3EF39D;
     --roxoescuro: #48375E;
-    -botao-inativo:rgba(58, 55, 94, 0.5);
-    -botao-ativo:rgba(72, 55, 94, 1)
+    --botao-inativo:rgba(58, 55, 94, 0.5);
+    --botao-ativo:rgba(72, 55, 94, 1);
     
 }
 body{
-    background-color: var(--verdea);
+    background-color: var(--verde);
     color: var(--branco);
     font-family: 'Chakra Petch', 'Sans-Serif';
 }
