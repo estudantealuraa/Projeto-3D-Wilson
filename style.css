@@ -33,3 +33,29 @@ body{
 .titulo-principal span{
     color: var(--verdeagua);
 }
+.botao{
+    font-family: 'Chakra Petch', 'Sans-Serif';
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
