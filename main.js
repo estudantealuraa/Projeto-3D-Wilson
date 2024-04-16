@@ -19,4 +19,8 @@ let minutos = Math.floor(segundos/ 60);
 let horas = Math.floor(minutos/60);
 let dias = Math.floor(horas/24);
 
-return dias + "dias" + horas "horas" + minutos + "minutos" + segundos + "segundos";
+segundos % = 60;
+minutos % = 60;
+horas % = 24;
+
+return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
