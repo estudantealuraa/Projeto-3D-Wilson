@@ -17,10 +17,10 @@ const tempoObjetivo2 = new Date("2025-01-01T23:59:59");
 const tempoObjetivo3 = new Date("2025-01-01T23:59:59");
 const tempoObjetivo4 = new Date("2024-12-14T23:59:59");
 
-const tempos[
+const tempos = [
     tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4
 ]
-function cALCULAtEMPO(tempoObjetivo1){
+function calculaTempo(tempoObjetivo1){
     let tempoAtual = new Date();
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
 let segundos = Math.floor(tempoFinal / 1000);
@@ -33,5 +33,4 @@ minutos %= 60;
 horas %= 24;
 
 return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
-
 }
